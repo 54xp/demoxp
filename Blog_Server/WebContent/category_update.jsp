@@ -48,9 +48,9 @@
           <label for="category-fname">父节点</label>
           <select id="category-fname" class="form-control" name="fid">
             <option value="0" selected>无</option>
-            <option value="1">前端技术</option>
-            <option value="2">后端程序</option>
-            <option value="3">管理系统</option>
+            <option value="1">前端技术1</option>
+            <option value="2">后端程序1</option>
+            <option value="3">管理系统1</option>
             <option value="4">授人以渔</option>
             <option value="5">程序人生</option>
           </select>
