@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+encoding//WebContent/lib/ueditor/php/config.json=UTF-8
+encoding//WebContent/sql/db.sql=UTF-8
+encoding//src/com/xp/dao/dbhelper/BeanUtils.java=UTF-8
+encoding//src/com/xp/dao/dbhelper/DBHelper.java=UTF-8
+encoding//src/com/xp/dao/dbhelper/StringUtils.java=UTF-8
+encoding//src/com/xp/dao/dbhelper/Test.java=UTF-8
