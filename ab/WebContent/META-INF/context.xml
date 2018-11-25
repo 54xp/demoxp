@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context >  
+ 	<Resource name="jdbc/cludtags" 
+		 auth="Container" 
+		 type="javax.sql.DataSource" 
+		 driverClassName="com.mysql.jdbc.Driver" 
+		 url="jdbc:mysql://localhost:3306/mysql" 
+		 username="root" password="a" 
+		 maxActive="20" maxIdle="10" 
+		 maxWait="10000"/>
+</Context>
+<!-- name="jdbc/cludtags" 	名称可以自定义起		目录名称
+	driverClassName="com.mysql.jdbc.Driver" 	数据库的类驱动类
+	url="jdbc:mysql://localhost:3306/cludtags" 		链接数据库的地址
+	 username="root" password="root" 		账号密码
+
+ -->
+
+
+<!-- * driverClassName - 所使用的JDBC驱动类全称。
+* maxActive - 同一时刻可以自数据库连接池中被分配的最大活动实例数。
+* maxIdle - 同一时刻数据库连接池中处于非活动状态的最大连接数。
+* maxWait - 当连接池中没有可用连接时，连接池在抛出异常前将等待的最大时间，单位毫秒。
+* password - 传给JDBC驱动的数据库密码。
+* url - 传给JDBC驱动的连接URL。
+* user - 传给JDBC驱动的数据库用户名。
+* validationQuery - 一个SQL查询语句，用于在连接被返回给应用前的连接池验证。
+* 如果指定了该属性，则必为至少返回一行记录的SQL SELECT语句。
+
+jdbc/drp是数据源的名称(
+	随意写，要和web.xml文件中 <res-ref-name>jdbc/drp</res-ref-name> 一样即可)，
+其他的参数按照自己的实际情况进行修改，例如数据库的名称、账号、密码。 -->
+
+
