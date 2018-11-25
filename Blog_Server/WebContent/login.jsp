@@ -31,7 +31,7 @@
   <div class="siteIcon"><img src="images/icon/icon.png" alt="" data-toggle="tooltip" data-placement="top" title="欢迎使用异清轩博客管理系统" draggable="false" /></div>
   <form action="user.s" method="post" autocomplete="off" class="form-signin">
    <input type="hidden" name="op" value="login">	<!-- 隐藏域传值 -->
-    <h2 class="form-signin-heading">管理员登录SS</h2>
+    <h2 class="form-signin-heading">管理员登录SSsss</h2>
     
     <label for="userName" class="sr-only">用户名</label>
     <%-- param是el表达式的内置对象 是存放请求参数的集合 --%><%--value="${param.username}" 用于在输入框保存操作失误的 已输入的账号 --%>
